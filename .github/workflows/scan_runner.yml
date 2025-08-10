@@ -1,7 +1,7 @@
 name: Scan Runner
 
 on:
-  workflow_dispatch:  # Manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   run-scanner:
