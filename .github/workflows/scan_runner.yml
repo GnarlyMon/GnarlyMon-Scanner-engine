@@ -1,9 +1,9 @@
 name: Run Scanner
 
 on:
+  workflow_dispatch:       # Manual trigger
   schedule:
     - cron: '0 22 * * 1-5'  # Runs at 5PM EST Mon–Fri
-  workflow_dispatch:       # Manual trigger
 
 jobs:
   scan:
